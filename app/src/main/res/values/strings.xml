@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">السبحة الالكترونية</string>
+    <string name="total">"العدد الاجمالي "</string>
+    <string name="settings">الاعدادات</string>
+    <string name="soundintro">تفعيل صوت المقدمة</string>
+    <string name="soundbib">تفعيل الصوت </string>
+    <string name="vibrate">تفعيل االاهتزاز </string>
+    <string name="infovibrate"> االاهتزاز يستنزف البطارية </string>
+    <string name="lastcount"> القيمة الاخيرة للتسبيحة </string>
+    <string name="whenlastcount"> عندما تصل للتسبيحة الاخيرة </string>
+    <string name="remindlastcount"> تذكير عند القيمة الاخيرة</string>
+    <string name="restartlastcount">اعد القيمة من جديد</string>
+    <string name="settingtotal">ضبط العداد الاجمالي</string>
+    <string name="restarttotal">تصفير العداد الاجمالي</string>
+    <string name="choooselastcount"> اختر القيمة المناسبة  </string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="sound">صوت</string>
+    <string name="vibrates">اهتزاز</string>
+    <string name="nothing">لاشي</string>
+    <string name="both">معا</string>
+    <string name="choose">اختر نوع التنبيه</string>
+    <string name="list_tsbih">تسابيح</string>
+
+
+</resources>
