@@ -156,6 +156,13 @@ void preparedata(){
             soundnotice();
             vibrateme();
         }
+        boolean restart=prefManager.getrestartlastcount();
+        if(restart){
+            countdown=0;
+            tv_countdown.setText(""+countdown);
+
+        }
+
     }
     void soundnotice(){
         mp=MediaPlayer.create(getApplicationContext(),R.raw.notice);

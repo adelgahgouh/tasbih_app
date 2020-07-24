@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/grey"
+    tools:ignore="RtlCompat"
     android:layout_height="wrap_content">
     <LinearLayout
         android:id="@+id/container_tasbih"
@@ -14,22 +15,12 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="horizontal"
-            android:layoutDirection="rtl"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
+
             <TextView
-                android:background="@drawable/item_number"
-                android:padding="10dp"
-                android:gravity="center"
-                android:layout_width="60dp"
-                android:layout_margin="5dp"
-                android:textColor="@color/white"
-                android:textSize="22sp"
-                android:id="@+id/tv_item_number"
-                android:text="1"
-                android:layout_height="wrap_content"></TextView>
-            <TextView
+                android:layout_weight="4"
                 android:id="@+id/tv_item_title"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:paddingTop="5dp"
@@ -39,6 +30,19 @@
                 android:textStyle="bold"
                 android:textAlignment="center"
                 android:text="@string/app_name"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"></TextView>
+            <TextView
+                android:layout_weight="1"
+                android:background="@drawable/item_number"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:id="@+id/tv_item_number"
+                android:text="1"
                 android:layout_height="wrap_content"></TextView>
 
         </LinearLayout>

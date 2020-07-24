@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/bgcolor"
+    tools:ignore="RtlCompat"
     tools:context=".settings">
     <LinearLayout
         android:layout_weight="0.8"
@@ -31,6 +32,7 @@
             android:textSize="24sp"
             android:textColor="@color/white"
             android:layout_gravity="center"
+            android:gravity="center_horizontal"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             ></TextView>
@@ -56,7 +58,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <LinearLayout
-                    android:layoutDirection="rtl"
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_marginTop="10dp"
@@ -64,16 +65,7 @@
                     android:layout_marginEnd="5dp"
 
                     android:layout_height="match_parent">
-                    <TextView
-                        android:padding="10dp"
-                        android:text="@string/soundintro"
-                        android:layout_weight="3"
-                        android:layout_gravity="center_vertical"
-                        android:textSize="18sp"
-                        android:gravity="center_vertical"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"></TextView>
-                    <Button
+                           <Button
                         android:text="@string/no"
                         android:id="@+id/btnsoundintro"
                         android:layout_marginTop="5dp"
@@ -85,6 +77,16 @@
                         android:onClick="btnsoundintro"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"></Button>
+                    <TextView
+                        android:padding="10dp"
+                        android:text="@string/soundintro"
+                        android:layout_weight="3"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"></TextView>
+
                 </LinearLayout>
                 <View
                     android:layout_width="match_parent"
@@ -93,22 +95,13 @@
                     android:background="@color/grey"
                     ></View>
                 <LinearLayout
-                    android:layoutDirection="rtl"
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_marginStart="5dp"
                     android:layout_marginEnd="5dp"
 
                     android:layout_height="match_parent">
-                    <TextView
-                        android:padding="10dp"
-                        android:text="@string/soundbib"
-                        android:layout_weight="3"
-                        android:layout_gravity="center_vertical"
-                        android:textSize="18sp"
-                        android:gravity="center_vertical"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"></TextView>
+
                     <Button
                         android:text="@string/no"
                         android:textColor="@color/white"
@@ -121,6 +114,15 @@
                         android:onClick="btnsoundbib"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"></Button>
+                    <TextView
+                        android:padding="10dp"
+                        android:text="@string/soundbib"
+                        android:layout_weight="3"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"></TextView>
                 </LinearLayout>
                 <View
                     android:layout_width="match_parent"
@@ -129,23 +131,13 @@
                     android:background="@color/grey"
                     ></View>
                 <LinearLayout
-                    android:layoutDirection="rtl"
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_marginStart="5dp"
                     android:layout_marginEnd="5dp"
 
                     android:layout_height="match_parent">
-                    <TextView
-                        android:padding="10dp"
-                        android:text="@string/vibrate"
-                        android:layout_weight="3"
-                        android:layout_gravity="center_vertical"
-                        android:textSize="18sp"
-                        android:gravity="center_vertical"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"></TextView>
-                    <Button
+                       <Button
                         android:text="@string/no"
                         android:layout_marginTop="5dp"
                         android:layout_marginEnd="10dp"
@@ -157,6 +149,16 @@
                         android:id="@+id/btnvibrate"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"></Button>
+                    <TextView
+                        android:padding="10dp"
+                        android:text="@string/vibrate"
+                        android:layout_weight="3"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"></TextView>
+
                 </LinearLayout>
                 <View
                     android:layout_width="match_parent"
@@ -261,23 +263,13 @@
 
 
                 <LinearLayout
-                    android:layoutDirection="rtl"
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_marginStart="5dp"
                     android:layout_marginEnd="5dp"
 
                     android:layout_height="match_parent">
-                    <TextView
-                        android:padding="10dp"
-                        android:text="@string/restartlastcount"
-                        android:layout_weight="3"
-                        android:layout_gravity="center_vertical"
-                        android:textSize="18sp"
-                        android:gravity="center_vertical"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"></TextView>
-                    <Button
+                            <Button
                         android:text="@string/no"
                         android:layout_marginTop="5dp"
                         android:layout_marginEnd="10dp"
@@ -289,6 +281,16 @@
                         android:id="@+id/btnrestartlastcount"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"></Button>
+                    <TextView
+                        android:padding="10dp"
+                        android:text="@string/restartlastcount"
+                        android:layout_weight="3"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"></TextView>
+
                 </LinearLayout>
                 <View
                     android:layout_width="match_parent"
@@ -297,7 +299,6 @@
                     android:background="@color/grey"
                     ></View>
                 <LinearLayout
-                    android:layoutDirection="rtl"
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_marginStart="5dp"
@@ -305,16 +306,7 @@
                     android:layout_marginBottom="10dp"
 
                     android:layout_height="match_parent">
-                    <TextView
-                        android:padding="10dp"
-                        android:text="@string/remindlastcount"
-                        android:layout_weight="3"
-                        android:layout_gravity="center_vertical"
-                        android:textSize="18sp"
-                        android:gravity="center_vertical"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"></TextView>
-                    <Button
+                         <Button
                         android:text="@string/no"
                         android:layout_marginTop="5dp"
                         android:layout_marginEnd="10dp"
@@ -326,6 +318,16 @@
                         android:id="@+id/btnremindlastcount"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"></Button>
+                    <TextView
+                        android:padding="10dp"
+                        android:text="@string/remindlastcount"
+                        android:layout_weight="3"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"></TextView>
+
                 </LinearLayout>
 
             </LinearLayout>

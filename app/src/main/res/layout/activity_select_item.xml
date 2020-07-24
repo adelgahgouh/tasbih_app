@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    tools:ignore="RtlCompat"
     android:layout_height="match_parent"
     tools:context=".select_item">
 <LinearLayout
@@ -15,6 +16,8 @@
         android:id="@+id/tv_title"
         android:text="@string/settings"
         android:textAlignment="center"
+        android:gravity="center_horizontal"
+
         android:textStyle="bold"
         android:textSize="24sp"
         android:textColor="@color/white"
