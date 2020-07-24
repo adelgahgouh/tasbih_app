@@ -10,7 +10,7 @@ import android.os.Handler;
 
 
 public class splash extends AppCompatActivity {
-int periode=3000;
+int periode=4500;
     MediaPlayer mp;
 PrefManager prefManager;
     @Override

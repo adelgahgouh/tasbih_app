@@ -183,6 +183,13 @@ void preparedata(){
         }
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if(mp.isPlaying())
+            mp.stop();
+    }
+
     public void btnback(View view) {
     finish();
     }
