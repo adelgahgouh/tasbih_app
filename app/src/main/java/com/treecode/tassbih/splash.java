@@ -6,20 +6,25 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 
 
 public class splash extends AppCompatActivity {
-int periode=4600;
+int periode=10000;
     MediaPlayer mp;
 PrefManager prefManager;
+ImageView imageView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         prefManager=new PrefManager(getApplicationContext());
+        imageView=findViewById(R.id.imageView);
         mp=MediaPlayer.create(getApplicationContext(),R.raw.intro);
        boolean b=prefManager.getsoundIntro();
+        Glide.with(getApplicationContext()).load(R.drawable.loading).into(imageView);
        if(b)
         mp.start();
 
