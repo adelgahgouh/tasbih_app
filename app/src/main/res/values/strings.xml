@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">السبحة الالكترونية</string>
+    <string name="app_name">سبحتي و أذكاري</string>
+    <string name="slogo">وَٱلذَّٰاكِرِينَ ٱللَّهَ كَثِيرًا وَٱلذَّٰاكِرَٰتِ أَعَدَّ ٱللَّهُ لَهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًا</string>
     <string name="total">"العدد الاجمالي "</string>
     <string name="settings">الاعدادات</string>
     <string name="soundintro">تفعيل صوت المقدمة</string>

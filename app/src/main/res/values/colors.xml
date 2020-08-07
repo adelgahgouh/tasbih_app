@@ -10,4 +10,7 @@
     <color name="green">#18BC9C</color>
     <color name="btnclr">#5b6d92</color>
     <color name="titlesetting">#2c62d6</color>
+    <color name="transpar">#00000000</color>
+    <color name="slogo">#DBB26D</color>
+
 </resources>
